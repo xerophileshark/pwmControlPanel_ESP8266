@@ -1,12 +1,12 @@
 # pwmControlPanel_ESP8266
 A simple PWM control panel with ESP8266 boards using arduino.
-#Usage
+## Usage
 There are two habdlers:
   1. ```"/"``` handler which loads the neccesary panel html and javascript.
   2. ```"/pwm"``` handler which handles the pwm requests. **You should implement** this handler.
 To start the panel, simply enter the esp8266's ip address in your browser.
 
-#Panel html
+## Panel html
 the panel html code:
 ```html
 <!DOCTYPE html>
@@ -86,4 +86,4 @@ slider.oninput = function() {
 </body>
 </html>
 ```
-This code is stringified using [this site](http://davidjwatts.com/youtube/esp8266/esp-convertHTM.html) and put in html string variable. For the sake of simplicity we didn't use file system.
+This code is stringified using [this site](http://davidjwatts.com/youtube/esp8266/esp-convertHTM.html) and put in ```String html``` variable. For the sake of simplicity we didn't use file system.
