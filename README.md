@@ -5,6 +5,8 @@ There are two habdlers:
   1. ```"/"``` handler which loads the neccesary panel html and javascript.
   2. ```"/pwm"``` handler which handles the pwm requests. **You should implement** this handler.
 To start the panel, simply enter the esp8266's ip address in your browser.
+![1](https://user-images.githubusercontent.com/30368346/92375989-25dcf180-f117-11ea-9b16-2b57b542c90d.PNG)
+The panel should look like this:
 
 ## Panel html
 the panel html code:
