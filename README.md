@@ -6,8 +6,10 @@ There are two habdlers:
   1. ```"/"``` handler which loads the neccesary panel html and javascript.
   2. ```"/pwm"``` handler which handles the pwm requests. **You should implement** this handler. this handler uses *POST* method to receive pwm data as ```percent``` argument.
 
-First edit the code to implement ```c++
-void handlePWM()``` 
+First edit the code to implement 
+```cpp
+void handlePWM()
+``` 
 function and then upload it to your board.
 
 To start the panel, simply enter the esp8266's ip address in your browser.
