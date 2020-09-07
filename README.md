@@ -11,7 +11,7 @@ To start the panel, simply enter the esp8266's ip address in your browser.
 
 The panel should look like this:
 
-
+![2](https://user-images.githubusercontent.com/30368346/92376356-b1568280-f117-11ea-9b0c-2202daa078f2.PNG)
 
 ## Panel html
 the panel html code:
